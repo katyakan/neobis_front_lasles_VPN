@@ -16,7 +16,15 @@ background-color: var(--color-grey-light);
   height: 50px;
   margin: .5em;
 }
-
+.heading_medium {
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 50px;
+color: var(--color-grey-dark-2);
+margin-bottom: 2rem;
+}
   /*header*/
   .header {
     margin-top: 4.5rem;
@@ -111,13 +119,17 @@ font-size: 5rem;
 line-height: 7rem;
 color: var(--color-grey-dark-2)
 }
-.hero__description p {
+
+.text_simple {
   font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-color: var(--color-grey-dark-1);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-grey-dark-1);
+}
+.hero__description p {
+  
 margin-top: 2rem;
 }
 .hero__button {
@@ -181,4 +193,38 @@ color: #4F5665;
  height: 5.5rem;
  width: 5.5rem;
  margin-right: 3.7rem;
+}
+
+/*****features****/
+.features {
+  margin-top: 10.8rem;
+  align-items: center;
+}
+.features__img {
+  margin-top: -7rem;
+}
+.features__description li {
+
+  list-style-image: url(./assets/logo/green.svg); 
+  list-style-type: circle;
+  list-style-position: inside;
+ 
+}
+
+
+.features__description ul {
+ 
+margin-top: 2rem;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+ 
+  align-items: center;
+    color: var(--color-grey-dark-1)
+  
+}
+.features__description {
+  width: 38%;
 }
