@@ -145,3 +145,7 @@ samp {
   justify-content: space-around;
 }
 
+.flex-start {
+  display: flex;
+  justify-content: start;
+}

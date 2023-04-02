@@ -1,6 +1,8 @@
 :root {
   --color-light: #ffffff;
-  --color-grey-light: #f6f6f6;
+  --color-grey-light: #F6F6f6;
+  --color-grey-light-2:   #F8F8f8;
+
   --color-grey-medium: #dddddd;
   --color-grey-dark-1: #4f5665;
   --color-grey-dark-2: #0b132a;
@@ -345,6 +347,8 @@ customer
 .customer.container,
 .customer__block {
   background-color: var(--color-grey-light);
+  padding-bottom: 0rem;
+  height: 87.3rem;
 }
 .customer__block {
   text-align: center;
@@ -449,4 +453,67 @@ customer
 }
 .customer__button:active {
   box-shadow: 0px 10px 40px rgba(245, 56, 56, 0.25);
+}
+
+
+/**footer***/
+.footer, .footer__block, .footer.container {
+  padding-top: 0rem;
+  background-color:var(--color-grey-light-2);
+  height: 56.3rem;
+ 
+}
+
+.footer__left, .footer__right {
+  margin-top: 18rem;
+}
+.footer__left p {
+ margin-top: 2.6rem;
+}
+
+.footer__social a {
+  margin-left: -2rem;
+  margin-top: 3rem;
+  margin-right: .4rem;
+}
+.footer__copyright {
+  margin-top: -7rem;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+ margin-bottom: 10rem;
+  color: #AFB5C0;
+
+}
+.footer__right {
+  width: 50%;
+}
+
+.footer__navigation h3 {
+  margin-bottom: 2rem;
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: var(--color-grey-dark-2);
+}
+
+.footer__navigation li {
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 40px;
+color: var(--color-grey-dark-1)
+}
+.footer__navigation li:hover {
+  color: var(--color-red);
+  transform: rotate(7deg) scale(1.01);
+}
+.footer__navigation li:active {
+
+  transform: rotate(-7deg) scale(1.01);
 }
