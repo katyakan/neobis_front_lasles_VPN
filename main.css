@@ -1,125 +1,28 @@
 :root {
   --color-light: #ffffff;
-  --color-grey-light: #F6F6F6;
-  --color-grey-medium: #DDDDDD;
-  --color-grey-dark-1:#4F5665;
-  --color-grey-dark-2: #0B132A;
---color-red: #F53838;
-background-color: var(--color-grey-light);
-
+  --color-grey-light: #f6f6f6;
+  --color-grey-medium: #dddddd;
+  --color-grey-dark-1: #4f5665;
+  --color-grey-dark-2: #0b132a;
+  --color-red: #f53838;
+  background-color: var(--color-light);
 }
 
-
 /*icon class for sprite*/
-.icon { 
-  width: 50px; 
+.icon {
+  width: 50px;
   height: 50px;
-  margin: .5em;
+  margin: 0.5em;
 }
 .heading_medium {
   font-family: 'Rubik';
-font-style: normal;
-font-weight: 500;
-font-size: 35px;
-line-height: 50px;
-color: var(--color-grey-dark-2);
-margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: var(--color-grey-dark-2);
+  margin-bottom: 2rem;
 }
-  /*header*/
-  .header {
-    margin-top: 4.5rem;
-    background-color: var(--color-grey-light);
-    
-  }
-.header__nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header__icon {
-  width: 149px;
-height: 36.23px;
-left: 150px;
-top: 50px;
-}
-
-.header_links, .header__links ul {
-  display: flex;
-  justify-content: space-between;
-  gap: 4rem;
-}
-
-.header__links li {
-  
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-gap: 4rem;
-color: var(--color-grey-dark-1)
-}
-.header__links li:hover {
-  
-
-  color: var(--color-red);
-
-  }
-.header__buttons {
-  display: flex;
-  justify-content: space-between;
-gap: 3rem ;
-align-items: center;
-}
-.header__thick-font {
-  font-family: 'Rubik';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-color: var(--color-grey-dark-2)
-}
-.header__thick-font:hover {
-  
-color: var(--color-red);
-}
-.simple_button {
-  border: 1px solid var(--color-red);
-  border-radius: 5rem;
-  width: 15rem;
-height: 4.5rem;
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 500;
-font-size: 1.6rem;
-line-height: 1.9rem;
-text-align: center;
-color: var(--color-red);
-
-
-}
-.simple_button:hover {
-  background-color: var(--color-red);
-  color: var(--color-light);
-}
-
-/********* hero section *************/
-.hero {
-  background-color: var(--color-grey-light);
-  margin-top: 12.9rem;
-}
-.hero__left-block {
-  width: 50%;
-}
-.hero__heading h1 {
-  font-family: 'Rubik';
-font-style: normal;
-font-weight: 500;
-font-size: 5rem;
-line-height: 7rem;
-color: var(--color-grey-dark-2)
-}
-
 .text_simple {
   font-family: 'Rubik';
   font-style: normal;
@@ -128,33 +31,119 @@ color: var(--color-grey-dark-2)
   line-height: 30px;
   color: var(--color-grey-dark-1);
 }
+/*header*/
+.header {
+  margin-top: 4.5rem;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__icon {
+  width: 149px;
+  height: 36.23px;
+  left: 150px;
+  top: 50px;
+}
+
+.header_links,
+.header__links ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.header__links li {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  gap: 4rem;
+  color: var(--color-grey-dark-1);
+}
+.header__links li:hover {
+  color: var(--color-red);
+}
+.header__buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+}
+.header__thick-font {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--color-grey-dark-2);
+}
+.header__thick-font:hover {
+  color: var(--color-red);
+}
+.simple_button {
+  border: 1px solid var(--color-red);
+  border-radius: 5rem;
+  width: 15rem;
+  height: 4.5rem;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  text-align: center;
+  color: var(--color-red);
+}
+.simple_button:hover {
+  background-color: var(--color-red);
+  color: var(--color-light);
+  box-shadow: 0px 10px 20px rgba(245, 56, 56, 0.25);
+}
+
+/********* hero section *************/
+.hero {
+  background-color: var(--color-light);
+  margin-top: 12.9rem;
+}
+.hero__left-block {
+  width: 50%;
+}
+.hero__heading h1 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5rem;
+  line-height: 7rem;
+  color: var(--color-grey-dark-2);
+}
+
 .hero__description p {
-  
-margin-top: 2rem;
+  margin-top: 2rem;
 }
 .hero__button {
   margin-top: 5rem;
 }
 .red_button {
   width: 25rem;
-height: 6rem;
-background: #F53838;
-border-radius: 1rem;
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 700;
-font-size: 1.6rem;
-line-height: 2.5rem;
-color: var(--color-light);
-text-align: center;
-box-shadow: 0px 20px 20px rgba(245, 56, 56, 0.35);
+  height: 6rem;
+  background: #f53838;
+  border-radius: 1rem;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  color: var(--color-light);
+  text-align: center;
+  box-shadow: 0px 20px 20px rgba(245, 56, 56, 0.35);
 }
-.red_button:hover{
+.red_button:hover {
   font-size: 1.64rem;
 }
 .red_button:hover {
   box-shadow: 0px 20px 20px rgba(245, 56, 56, 0.55);
- 
 }
 
 .red_button:active {
@@ -171,32 +160,33 @@ box-shadow: 0px 20px 20px rgba(245, 56, 56, 0.35);
   height: 20rem;
   border-radius: 1rem;
   align-items: center;
+  box-shadow: 0px 30px 90px rgba(13, 16, 37, 0.25);
 }
 
 .stats__item p {
   font-family: 'Rubik';
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 30px;
-color: var(--color-grey-dark-2);
-
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: var(--color-grey-dark-2);
 }
 
 .stats__item span {
   font-size: 20px;
-line-height: 30px;
-color: #4F5665;
+  line-height: 30px;
+  color: #4f5665;
 }
 
 .stats__icon {
- height: 5.5rem;
- width: 5.5rem;
- margin-right: 3.7rem;
+  height: 5.5rem;
+  width: 5.5rem;
+  margin-right: 3.7rem;
 }
 
 /*****features****/
 .features {
+  width: 100%;
   margin-top: 10.8rem;
   align-items: center;
 }
@@ -204,27 +194,114 @@ color: #4F5665;
   margin-top: -7rem;
 }
 .features__description li {
-
-  list-style-image: url(./assets/logo/green.svg); 
+  list-style-image: url(./assets/logo/green_circle.svg);
   list-style-type: circle;
   list-style-position: inside;
- 
 }
 
-
 .features__description ul {
- 
-margin-top: 2rem;
+  margin-top: 2rem;
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
- 
+
   align-items: center;
-    color: var(--color-grey-dark-1)
-  
+  color: var(--color-grey-dark-1);
 }
 .features__description {
   width: 38%;
+}
+/*plan*/
+.pusto {
+  color: var(--color-grey-light);
+  margin-bottom: 7rem;
+}
+.plan {
+  margin-top: 10rem;
+  /*padding-top: 10rem;*/
+  text-align: center;
+  background-color: var(--color-grey-light);
+}
+.plan .container {
+  background-color: var(--color-grey-light);
+}
+
+.plan__block {
+  margin-top: 8rem;
+}
+.plan__item {
+  position: relative;
+  width: 33rem;
+  height: 76rem;
+  border: var(--color-grey-medium) solid 0.2rem;
+  border-radius: 1rem;
+  background-color: var(--color-light);
+}
+.plan__item:hover {
+  border: var(--color-red) solid 0.2rem;
+  box-shadow: 0px 20px 20px rgba(13, 16, 37, 0.35);
+}
+.plan__item img {
+  margin-top: 7.9rem;
+  width: 14.5rem;
+  height: 16.5rem;
+}
+.plan__heading {
+  margin-top: 3rem;
+  font-family: 'Rubik';
+  font-style: medium;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 141%;
+
+  color: var(--color-grey-dark-2);
+}
+.plan ul {
+  margin-top: 3rem;
+  text-align: left;
+  margin-left: 7.5rem;
+  margin-bottom: auto;
+}
+
+.plan li {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+
+  color: var(--color-grey-dark-1);
+  list-style-type: circle;
+  list-style-position: inside;
+  list-style-image: url(./assets/logo/gal1.svg);
+}
+
+.plan__pricing {
+  margin-bottom: 2rem;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--color-grey-dark-2);
+}
+.plan__pricing span {
+  color: var(--color-grey-dark-1);
+}
+.plan button {
+  margin-bottom: 5rem;
+}
+
+.plan__free {
+  margin-top: 13rem;
+}
+.plan__standard {
+  margin-top: 9rem;
+}
+.plan__premium {
+  margin-top: 6rem;
 }

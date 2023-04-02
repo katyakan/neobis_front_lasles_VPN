@@ -28,7 +28,7 @@ body {
   line-height: 1.2;
   margin: 0;
   padding: 0;
-  background-color: var(--color-grey-light);
+  background-color: var(--color-light);
 }
 
 input,
@@ -144,3 +144,4 @@ samp {
   display: flex;
   justify-content: space-around;
 }
+
