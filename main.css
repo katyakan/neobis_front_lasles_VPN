@@ -1,0 +1,25 @@
+:root {
+  --color-light: #ffffff;
+  --color-grey-light: #F6F6F6;
+  --color-grey-medium: #DDDDDD;
+  --color-grey-dark-1:#4F5665;
+  --color-grey-dark-2: #0B132A;
+--color-red: #F53838;
+
+  
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header__links ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*icon class for sprite*/
+.icon { 
+  width: 50px; 
+  height: 50px;
+  margin: .5em;
+}
