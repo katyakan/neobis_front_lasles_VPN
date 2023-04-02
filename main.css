@@ -517,3 +517,19 @@ color: var(--color-grey-dark-1)
 
   transform: rotate(-7deg) scale(1.01);
 }
+
+/*white section*/
+.customer {
+  position: relative;
+}
+.customer__white-section {
+  position: absolute;
+  background-color: var(--color-light);
+  border-radius: 10px;
+  height: 233px;
+  left: 18rem;
+  right: auto;
+  bottom: -12rem;
+  box-shadow: 0px 30px 90px rgba(13, 16, 37, 0.25);
+  align-items: center;
+}
