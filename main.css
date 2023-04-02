@@ -523,13 +523,14 @@ color: var(--color-grey-dark-1)
   position: relative;
 }
 .customer__white-section {
-  position: absolute;
+  position: relative;
   background-color: var(--color-light);
-  border-radius: 10px;
-  height: 233px;
-  left: 18rem;
+  border-radius: 1rem;
+  height: 23.3rem;
+  width: 114rem;
+  left:auto;
   right: auto;
-  bottom: -12rem;
-  box-shadow: 0px 30px 90px rgba(13, 16, 37, 0.25);
+  bottom: 12rem;
+  box-shadow: 0px 3rem 9rem rgba(13, 16, 37, 0.25);
   align-items: center;
 }
