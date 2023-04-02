@@ -5,7 +5,7 @@
   --color-grey-dark-1:#4F5665;
   --color-grey-dark-2: #0B132A;
 --color-red: #F53838;
-
+background-color: var(--color-grey-light);
 
 }
 
@@ -20,6 +20,8 @@
   /*header*/
   .header {
     margin-top: 4.5rem;
+    background-color: var(--color-grey-light);
+    
   }
 .header__nav {
   display: flex;
@@ -91,4 +93,58 @@ color: var(--color-red);
 .simple_button:hover {
   background-color: var(--color-red);
   color: var(--color-light);
+}
+
+/********* hero section *************/
+.hero {
+  background-color: var(--color-grey-light);
+  margin-top: 12.9rem;
+}
+.hero__left-block {
+  width: 50%;
+}
+.hero__heading h1 {
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 5rem;
+line-height: 7rem;
+color: var(--color-grey-dark-2)
+}
+.hero__description p {
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: var(--color-grey-dark-1);
+margin-top: 2rem;
+}
+.hero__button {
+  margin-top: 5rem;
+}
+.red_button {
+  width: 25rem;
+height: 6rem;
+background: #F53838;
+border-radius: 1rem;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 1.6rem;
+line-height: 2.5rem;
+color: var(--color-light);
+text-align: center;
+box-shadow: 0px 20px 20px rgba(245, 56, 56, 0.35);
+}
+.red_button:hover{
+  font-size: 1.64rem;
+}
+.red_button:hover {
+  box-shadow: 0px 20px 20px rgba(245, 56, 56, 0.55);
+ 
+}
+
+.red_button:active {
+  box-shadow: 0px 20px 20px rgba(245, 56, 56, 0.45);
 }
