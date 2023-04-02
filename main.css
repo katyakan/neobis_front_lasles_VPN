@@ -148,3 +148,37 @@ box-shadow: 0px 20px 20px rgba(245, 56, 56, 0.35);
 .red_button:active {
   box-shadow: 0px 20px 20px rgba(245, 56, 56, 0.45);
 }
+
+/**************** stats ***********/
+
+.stats {
+  margin-top: 10.2rem;
+}
+.stats__white-block {
+  background-color: var(--color-light);
+  height: 20rem;
+  border-radius: 1rem;
+  align-items: center;
+}
+
+.stats__item p {
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+color: var(--color-grey-dark-2);
+
+}
+
+.stats__item span {
+  font-size: 20px;
+line-height: 30px;
+color: #4F5665;
+}
+
+.stats__icon {
+ height: 5.5rem;
+ width: 5.5rem;
+ margin-right: 3.7rem;
+}
